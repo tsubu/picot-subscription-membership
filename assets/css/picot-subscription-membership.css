@@ -1,0 +1,187 @@
+.psm-teaser {
+	margin-bottom: 1.5rem;
+}
+
+.psm-page-guidance {
+	margin: 2rem 0;
+	padding: clamp(1.25rem, 3vw, 2rem);
+	border-left: 4px solid var(--wp--preset--color--primary, var(--wp--preset--color--contrast, #1d2327));
+	background: var(--wp--preset--color--base, transparent);
+}
+
+.psm-page-guidance h3 {
+	margin-top: 0;
+}
+
+.psm-policy-links {
+	grid-column: 1 / -1;
+	margin: 0;
+	padding: 1rem 1.25rem;
+	border-left: 4px solid var(--wp--preset--color--primary, var(--wp--preset--color--contrast, #1d2327));
+	background: var(--wp--preset--color--base, transparent);
+}
+
+.psm-policy-links h3 {
+	margin: 0 0 .5rem;
+	font-size: 1em;
+}
+
+.psm-policy-links ul {
+	margin: 0;
+}
+
+.psm-price-tax-notice {
+	grid-column: 1 / -1;
+	margin: 0;
+	font-size: .9em;
+}
+
+.psm-restricted {
+	margin: 2rem 0;
+	padding: clamp(1.25rem, 3vw, 2rem);
+	border: 1px solid var(--wp--preset--color--contrast-3, #d9d9d9);
+	border-radius: var(--wp--custom--border-radius, 4px);
+	background: var(--wp--preset--color--base, #f7f7f7);
+}
+
+.psm-restricted__link {
+	display: inline-block;
+	padding: .65em 1.15em;
+	border-radius: 3px;
+	background: var(--wp--preset--color--contrast, #1d2327);
+	color: var(--wp--preset--color--base, #fff) !important;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.psm-account {
+	display: grid;
+	gap: 1.5rem;
+	max-width: 52rem;
+}
+
+.psm-account section {
+	padding: clamp(1.25rem, 3vw, 2rem);
+	border: 1px solid var(--wp--preset--color--contrast-3, #d9d9d9);
+	border-radius: var(--wp--custom--border-radius, 4px);
+	background: var(--wp--preset--color--base, transparent);
+}
+
+.psm-account h2,
+.psm-account h3 {
+	margin-top: 0;
+}
+
+.psm-account label {
+	display: grid;
+	gap: .35rem;
+	font-weight: 600;
+}
+
+.psm-account input:not([type="hidden"]) {
+	width: 100%;
+	max-width: 30rem;
+	box-sizing: border-box;
+	margin-top: .1rem;
+	font: inherit;
+	color: inherit;
+	background: transparent;
+}
+
+.psm-account__button {
+	margin-top: .25rem;
+	cursor: pointer;
+}
+
+.psm-plans {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+	gap: 1.5rem;
+	align-items: stretch;
+}
+
+.psm-plans > .psm-error {
+	grid-column: 1 / -1;
+}
+
+.psm-plans__plan {
+	display: flex;
+	flex-direction: column;
+	padding: clamp(1.25rem, 3vw, 2rem);
+	border: 1px solid var(--wp--preset--color--contrast-3, #d9d9d9);
+	border-radius: var(--wp--custom--border-radius, 4px);
+	background: var(--wp--preset--color--base, transparent);
+}
+
+.psm-plans__plan h3 {
+	margin-top: 0;
+}
+
+.psm-plans__price {
+	margin-top: auto;
+	font-size: 1.15em;
+	font-weight: 700;
+}
+
+.psm-plans__button {
+	cursor: pointer;
+}
+
+.psm-register-wrap,
+.psm-login {
+	max-width: 36rem;
+}
+
+.psm-register,
+.psm-login form {
+	padding: clamp(1.25rem, 3vw, 2rem);
+	border: 1px solid var(--wp--preset--color--contrast-3, #d9d9d9);
+	border-radius: var(--wp--custom--border-radius, 4px);
+	background: var(--wp--preset--color--base, transparent);
+}
+
+.psm-form-field label,
+.psm-login .login-username label,
+.psm-login .login-password label {
+	display: grid;
+	gap: .35rem;
+	font-weight: 600;
+}
+
+.psm-form-field input,
+.psm-login input[type="text"],
+.psm-login input[type="password"] {
+	width: 100%;
+	box-sizing: border-box;
+	font: inherit;
+	color: inherit;
+	background: transparent;
+}
+
+.psm-register__consent label {
+	font-size: .94em;
+}
+
+.psm-register__consent input {
+	width: auto;
+	margin-right: .35em;
+}
+
+.psm-register__button,
+.psm-login .login-submit input {
+	cursor: pointer;
+}
+
+.psm-success,
+.psm-error {
+	padding: .75rem 1rem;
+	border-left: 4px solid var(--wp--preset--color--vivid-green-cyan, #00a32a);
+	background: color-mix(in srgb, var(--wp--preset--color--vivid-green-cyan, #00a32a) 10%, transparent);
+}
+
+.psm-error {
+	border-left-color: var(--wp--preset--color--vivid-red, #d63638);
+	background: color-mix(in srgb, var(--wp--preset--color--vivid-red, #d63638) 10%, transparent);
+}
+
+.psm-honeypot { position: absolute !important; left: -9999px !important; }

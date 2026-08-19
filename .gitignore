@@ -1,0 +1,14 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Development dependencies and generated archives
+vendor/
+node_modules/
+*.zip
+
+# Editor and local environment files
+.idea/
+.vscode/
+.env
+.env.*

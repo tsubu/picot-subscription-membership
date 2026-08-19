@@ -1,0 +1,12 @@
+#psm-access .picot-subscription-membership-purchase-price {
+	display: block;
+	margin-top: 8px;
+}
+
+#psm-access .picot-subscription-membership-purchase-amount {
+	box-sizing: border-box;
+	display: block;
+	margin-top: 4px;
+	max-width: none;
+	width: 100%;
+}
